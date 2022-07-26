@@ -76,22 +76,13 @@ include "config.php";
             </div>
             <div class="about-container">
                 <div class="left-about">
-                    <h4>Information About me</h4>
+                    <h4><?php echo $lang['about_title'] ?></h4>
                     <p>
-                        Je suis un développeur web autodidacte qui a commencé à coder parallèlement à mon metier de
-                        réceptionniste À partir de ma première page "hello world",
-                        j'ai été intrigué par la façon dont je pouvais aller plus loin et l'aventure a commencé là. J'ai
-                        maintenant créé des applications complètes,
-                        en combinant le style et la fonctionnalité et en utilisant des cadres open source pour garantir
-                        les meilleures pratiques.
-                        <br /> <br /> La rapidité avec laquelle le monde de web et les technologies évoluent m'a
-                        encouragé à continuer d'apprendre, d'explorer et de m'adapter
-                        et a consacrer plus de temps et d'énergie, a l'apprentissage et l'acquisition des bonne
-                        pratiques.
+                        <?php echo $lang['about'] ?>
                     </p>
                     <div class="btn-con">
                         <a href="cv/Hassan TAJIRI_Developpeur_Web.pdf" class="main-btn" target="_blank" title="cv download link">
-                            <span class="btn-text">Download CV</span>
+                            <span class="btn-text"><?php echo $lang['resume'] ?></span>
                             <span class="btn-icon"><i class="fas fa-download"></i></span>
                         </a>
                     </div>
