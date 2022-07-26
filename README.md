@@ -1,12 +1,18 @@
 <figure>
     <img src="img/preview.png"
          alt="A preview of SPA portfolio project">
-    <figcaption>SPA Home section Preview</figcaption>
+    <figcaption align="center"><b></b>SPA Home section Preview</b></figcaption>
 </figure>
+
+![](https://i.imgur.com/waxVImv.png)
 
 # 	:briefcase: Project Title :
 
-**SPA Portfolio Project**
+
+## SPA Portfolio Project
+
+![](https://i.imgur.com/waxVImv.png)
+
 
 # :memo: Project description :
 
