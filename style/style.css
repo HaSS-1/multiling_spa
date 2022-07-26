@@ -1333,12 +1333,6 @@ section {
     width: 20px;
     height: 20px;
   }
-  .lang-btn {
-    width: 20px;
-    height: 20px;
-    padding-right: 20px;
-  }
- 
   .header-content {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);

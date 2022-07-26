@@ -7,7 +7,7 @@ const allSections = document.querySelector('.main-content');
 function PageTransitions() {
     //Button click active class
     for (let i = 0; i < sectBtn.length; i++) {
-        sectBtn[i].addEventListener('click', function() {
+        sectBtn[i].addEventListener('click', function () {
             let currentBtn = document.querySelectorAll('.active-btn');
             currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
             this.className += ' active-btn';
@@ -46,16 +46,16 @@ function PageTransitions() {
 PageTransitions();
 
 //Convert adress to google map's link:
-$("address").each(function(){
+$("address").each(function () {
     var address = $(this).text().replace(/\,/g, ' '); // get rid of commas
     var url = address.replace(/\ /g, '%20'); // convert address into approprite URI for google maps
-    
+
     $(this).wrap('<a href="http://maps.google.com/maps?q=' + url + '" target="_blank"></a>');
 
 });
 
 //Preloader
-$(window).on('load', function() {
+$(window).on('load', function () {
     $('.loader-wrapper').delay(0).fadeOut('slow');
 });
 
@@ -65,10 +65,10 @@ const textDiv = document.getElementById('f-name');
 
 // Change text color on mouseover
 box.addEventListener('mouseover', function handleMouseOver() {
-  textDiv.style.color = '#454e56';
+    textDiv.style.color = '#454e56';
 });
 
 //Change text color back on mouseout
 box.addEventListener('mouseout', function handleMouseOut() {
-  textDiv.style.color = '';
+    textDiv.style.color = '';
 });
